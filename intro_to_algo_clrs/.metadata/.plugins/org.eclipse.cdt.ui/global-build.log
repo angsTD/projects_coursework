@@ -1,0 +1,16 @@
+00:27:41 **** Incremental Build of configuration Debug for project Queue ****
+make all 
+Building file: ../src/dxcm_ptr_queue.c
+Invoking: Cross GCC Compiler
+gcc -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"src/dxcm_ptr_queue.d" -MT"src/dxcm_ptr_queue.o" -o "src/dxcm_ptr_queue.o" "../src/dxcm_ptr_queue.c"
+../src/dxcm_ptr_queue.c:63:21: warning: incompatible pointer to integer conversion assigning to 'uint64_t' (aka 'unsigned long long') from 'void *' [-Wint-conversion]
+    *(uint64_t*)ptr = q->ptrs[(q->head)++];
+                    ^ ~~~~~~~~~~~~~~~~~~~~
+1 warning generated.
+Finished building: ../src/dxcm_ptr_queue.c
+ 
+Building target: Queue
+Invoking: Cross GCC Linker
+gcc  -o "Queue"  ./src/Queue.o ./src/dxcm_ptr_queue.o ./src/scheduler.o   
+Finished building target: Queue
+ 

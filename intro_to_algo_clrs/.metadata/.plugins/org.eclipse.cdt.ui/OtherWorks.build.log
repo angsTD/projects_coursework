@@ -1,0 +1,6 @@
+00:43:52 **** Incremental Build of configuration Debug for project OtherWorks ****
+make all 
+make: Nothing to be done for `all'.
+
+00:43:53 Build Finished (took 77ms)
+

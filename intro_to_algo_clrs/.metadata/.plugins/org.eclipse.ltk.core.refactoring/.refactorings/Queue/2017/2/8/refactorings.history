@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Queue/src/dxcm_ptr_queue&apos; to &apos;dxcm_ptr_queue.c&apos;" description="Rename resource &apos;dxcm_ptr_queue&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/dxcm_ptr_queue" name="dxcm_ptr_queue.c" stamp="1487491879062" updateReferences="true"/>
+</session>
